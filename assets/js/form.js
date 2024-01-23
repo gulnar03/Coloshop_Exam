@@ -38,14 +38,14 @@ async function deleteElem(id, btn) {
 
 form.addEventListener("submit", async function (event) {
   event.preventDefault();
-  let menuObj = {
+  let Obj = {
     image: `./assets/images/${allInputs[2].value.split("\\")[2]}`,
     title: allInputs[0].value,
     price: allInputs[1].value,
   };
   if (!addStatus) {
     if (allInputs[0].value !== "" && allInputs[1].value > 0) {
-      await axios.post(`${BASE_URL}/menu`, menuObj);
+      await axios.post(`${BASE_URL}/products`, Obj);
     } else {
       Toastify({
         text: "Please fill the fields!!",
@@ -63,16 +63,16 @@ form.addEventListener("submit", async function (event) {
     }
   } else {
     addBtn.textContent = "Add";
-    await axios.patch(`${BASE_URL}/menu/${addId}`, menuObj);
+    await axios.patch(`${BASE_URL}/products/${addId}`, Obj);
   }
 });
 async function editElem(id) {
   addId = id;
   addStatus = true;
   addBtn.textContent = "Edit";
-  const res = await axios.patch(`${BASE_URL}/menu/${id}`);
+  const res = await axios.patch(`${BASE_URL}/products/${id}`);
   allInputs[0].value = res.data.title;
-  allInputs[1].value = res.data.description;
+  allInputs[1].value = res.data.price;
 }
 
 searchInput.addEventListener("input", function (e) {

@@ -1,0 +1,76 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Fujifilm X100T 16 MP Digital Camera (Silver)",
+      "price": 520.0,
+      "oldPrice": 590.0,
+      "image": "./assets/images/product_1.png",
+      "category": "men"
+    },
+    {
+      "id": 2,
+      "title": "Samsung CF591 Series Curved 27-Inch FHD Monitor",
+      "price": 610.0,
+      "image": "./assets/images/product_2.png",
+      "category": "women"
+    },
+    {
+      "id": 3,
+      "title": "Blue Yeti USB Microphone Blackout Edition",
+      "price": 120.0,
+      "image": "./assets/images/product_3.png",
+      "category": "women"
+    },
+    {
+      "id": 4,
+      "title": "DYMO LabelWriter 450 Turbo Thermal Label Printer",
+      "price": 410.0,
+      "image": "./assets/images/product_4.png",
+      "category": "accessories"
+    },
+    {
+      "id": 5,
+      "title": "DYMO LabelWriter 450 Turbo Thermal Label Printer",
+      "price": 180.0,
+      "image": "./assets/images/product_5.png",
+      "category": "men"
+    },
+    {
+      "id": 6,
+      "title": "Fujifilm X100T 16 MP Digital Camera (Silver)",
+      "price": 520.0,
+      "oldPrice": 590.0,
+      "image": "./assets/images/product_6.png",
+      "category": "accessories"
+    },
+    {
+      "id": 7,
+      "title": "Samsung CF591 Series Curved 27-Inch FHD Monitor",
+      "price": 610.0,
+      "image": "./assets/images/product_7.png",
+      "category": "women"
+    },
+    {
+      "id": 8,
+      "title": "Blue Yeti USB Microphone Blackout Edition",
+      "price": 120.0,
+      "image": "./assets/images/product_8.png",
+      "category": "women"
+    },
+    {
+      "id": 9,
+      "title": "DYMO LabelWriter 450 Turbo Thermal Label Printer",
+      "price": 410.0,
+      "image": "./assets/images/product_9.png",
+      "category": "men"
+    },
+    {
+      "id": 10,
+      "title": "Pryma Headphones, Rose Gold & Grey",
+      "price": 180.0,
+      "image": "./assets/images/product_10.png",
+      "category": "men"
+    }
+  ]
+}
